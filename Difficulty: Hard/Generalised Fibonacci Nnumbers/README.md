@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/generalised-fibonacci-numbers1820/1">Generalised Fibonacci Nnumbers</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Consider the generalized Fibonacci number <strong>g</strong>, which is dependent on <strong>a</strong>, <strong>b</strong> and <strong>c</strong> as follows :-<br><strong>g</strong>(1) = 1, <strong>g</strong>(2) = 1. For any other number&nbsp;<strong>n, </strong><strong>g</strong>(n) = <strong>a*g</strong>(n-1) + <strong>b*g</strong>(n-2) + <strong>c</strong>.</span></p>
+<p><span style="font-size: 18px;">For a given value of <strong>m</strong>, determine <strong>g(n)%m</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> </span><span style="font-size: 18px;">a<strong> </strong>=<strong> </strong>3, b<strong> </strong>=<strong> </strong>3, c =<strong> </strong>3, n =<strong> </strong>3, m =<strong> </strong>5</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">4</span>
+<span style="font-size: 18px;"><strong>Explanation:</strong></span>
+<span style="font-size: 18px;">g(1) = 1 and g(2) = 1 <br></span><span style="font-size: 18px;">g(3) = 3*g(2) + 3*g(1) + 3 = 3*1 + 3*1 + 3 = 9<br></span><span style="font-size: 18px;">We need to return answer modulo 5, so 9%5 = 4, is the answer.</span></pre>
+<pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> </span><span style="font-size: 18px;">a = 2, b =<strong> </strong>2, c = 2, n = 4, m =<strong> </strong>100</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">16</span>
+<span style="font-size: 18px;"><strong>Explanation:</strong></span>
+<span style="font-size: 18px;">g(1) = 1 and g(2) = 1<br></span><span style="font-size: 18px;">g(3) = 2*g(2) + 2*g(1) + 2 = 2*1 + 2*1 + 2 = 6<br>g(4) = 2*g(3) + 2*g(2) + 2  = 2*6 + 2*1 + 2 = 16<br>We need to return answer modulo 100, so 16%100 = 16, is the answer.</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 &lt;= a, b, c, n, m &lt;= 10<sup>4</sup>+7</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematics</code>&nbsp;<code>Matrix</code>&nbsp;<code>Modular Arithmetic</code>&nbsp;
